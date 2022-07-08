@@ -1,0 +1,118 @@
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: orangered;
+}
+
+.container {
+    padding: 20px;
+    background-color: orangered;
+}
+
+input[type=text],
+input[type=password],
+textarea {
+  width: 100%;
+    padding: 40px;
+    margin: 5px 0 22px 0;
+    display: inline-block; 
+    border: 1%;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: orange;
+    outline: none;
+}
+
+div {
+    padding: 10px 0;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: blue;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100;
+    background: linear-gradient (to top, rgba(0,0,0,0,50%,rgba(0,0,0,0,50%), url(image1.jpg) ));
+    background-position: center ;
+    background-size: cover;    
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon  {
+   width: 200px;
+   float: left;
+   height: 70px; 
+   padding-top: 1.5rem;
+}
+
+.h1{
+    margin-right: 5rem;
+}
+.logo{
+    color: black;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px    ;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    display: flex;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: orangered;
+}

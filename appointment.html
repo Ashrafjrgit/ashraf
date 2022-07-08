@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appointment</title>
+    <link rel="stylesheet" href="appointment.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <img src="image/logo.jpg" width="50px">
+                <h1 class="logo">A.S.C</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="ALCOHOL EDUCATION.html">ALCOHOL EDU</a></li>
+                    <li><a href="drug education.html">DRUG EDU</a></li>
+                    <li><a href="appointment.html">APPOINTMENT</a></li>
+                    <li><a href="doctr.html">DOCTOR</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                  <hr> <hr>
+                  <hr>
+                </ul>
+            </div>
+            
+        </div>
+    <form>
+        <div class="container">
+            <center>
+                <h1> Victim Registeration Form</h1>
+            </center>
+            <hr>
+            <label> Firstname </label>
+            <input type="text" name="firstname" placeholder="Firstname" size="15" required />
+            <label> Middlename: </label>
+            <input type="text" name="middlename" placeholder="Middlename" size="15" required />
+            <label> Lastname: </label>
+            <input type="text" name="lastname" placeholder="Lastname" size="15" required />
+            
+            <div>
+                <label>   
+      Gender :  
+      </label><br>
+                <input type="radio" value="Male" name="gender" checked> Male
+                <input type="radio" value="Female" name="gender"> Female
+                <input type="radio" value="Other" name="gender"> Other
+    
+            </div>
+            <label>   
+      Phone :  
+      </label>
+            <input type="text" name="country code" placeholder="Country Code" value="+255" size="2" />
+            <input type="text" name="phone" placeholder="phone no." size="10" / required> Current Address :
+            <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+      </textarea>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+    
+           
+            <button type="submit" class="registerbtn">Register</button>
+    </form>
+</body>
+</html>

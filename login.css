@@ -1,0 +1,106 @@
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, red);
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: white;
+    color: orangered;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.image{
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.form{
+    border-radius: solid 4px;
+    background-color:orangered;
+}
+
+.login{
+    background-image: url(image/LOGIN.jpg);
+    width: 900px;
+    height: 900px;
+}
